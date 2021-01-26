@@ -10,7 +10,7 @@ class SecurityDAO {
 	
 	public function register(UserModel $user) {
 		// Establish connection
-		$connection = mysqli_connect('localhost', 'root', '', 'cloudapp');
+		$connection = mysqli_connect('z5zm8hebixwywy9d.cbetxkdyhwsb.us-east-1.rds.amazonaws.com', 'ckawg5145zknldgc', 'xihc00ekyeq2r2be', 'yiz083qcypo7n1y3');
 		if(!$connection) {
 			die("Database connection failed");
 		}
@@ -37,7 +37,7 @@ class SecurityDAO {
 	
 	public function login(UserModel $user) {
 		// Establish connection
-		$connection = mysqli_connect('localhost', 'root', '', 'cloudapp');
+		$connection = mysqli_connect('z5zm8hebixwywy9d.cbetxkdyhwsb.us-east-1.rds.amazonaws.com', 'ckawg5145zknldgc', 'xihc00ekyeq2r2be', 'yiz083qcypo7n1y3');
 		if(!$connection) {
 			die("Database connection failed");
 		}
@@ -76,7 +76,7 @@ class SecurityDAO {
 	
 	public function getAllUsers() {
 		// Establish connection
-		$connection = mysqli_connect('localhost', 'root', '', 'cloudapp');
+		$connection = mysqli_connect('z5zm8hebixwywy9d.cbetxkdyhwsb.us-east-1.rds.amazonaws.com', 'ckawg5145zknldgc', 'xihc00ekyeq2r2be', 'yiz083qcypo7n1y3');
 		if(!$connection) {
 			die("Database connection failed");
 		}
@@ -97,7 +97,7 @@ class SecurityDAO {
 	
 	public function updateUser($user, $oldusername) {
 		// Establish connection
-		$connection = mysqli_connect('localhost', 'root', '', 'cloudapp');
+		$connection = mysqli_connect('z5zm8hebixwywy9d.cbetxkdyhwsb.us-east-1.rds.amazonaws.com', 'ckawg5145zknldgc', 'xihc00ekyeq2r2be', 'yiz083qcypo7n1y3');
 		if(!$connection) {
 			die("Database connection failed");
 		}
@@ -124,7 +124,7 @@ class SecurityDAO {
 	
 	public function deleteUser($username) {
 		// Establish connection
-		$connection = mysqli_connect('localhost', 'root', '', 'cloudapp');
+		$connection = mysqli_connect('z5zm8hebixwywy9d.cbetxkdyhwsb.us-east-1.rds.amazonaws.com', 'ckawg5145zknldgc', 'xihc00ekyeq2r2be', 'yiz083qcypo7n1y3');
 		if(!$connection) {
 			die("Database connection failed");
 		}
@@ -145,7 +145,7 @@ class SecurityDAO {
 	
 	public function createPost($post) {
 		// Establish connection
-		$connection = mysqli_connect('localhost', 'root', '', 'cloudapp');
+		$connection = mysqli_connect('z5zm8hebixwywy9d.cbetxkdyhwsb.us-east-1.rds.amazonaws.com', 'ckawg5145zknldgc', 'xihc00ekyeq2r2be', 'yiz083qcypo7n1y3');
 		if(!$connection) {
 			die("Database connection failed");
 		}
@@ -173,7 +173,7 @@ class SecurityDAO {
 	
 	public function getAllPosts() {
 		// Establish connection
-		$connection = mysqli_connect('localhost', 'root', '', 'cloudapp');
+		$connection = mysqli_connect('z5zm8hebixwywy9d.cbetxkdyhwsb.us-east-1.rds.amazonaws.com', 'ckawg5145zknldgc', 'xihc00ekyeq2r2be', 'yiz083qcypo7n1y3');
 		if(!$connection) {
 			die("Database connection failed");
 		}
